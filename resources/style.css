@@ -67,7 +67,7 @@ img {
     margin: 5rem 10rem 4rem;
     border: solid 5px black;
     background-image: url(./images/photographer.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 40.15rem;
