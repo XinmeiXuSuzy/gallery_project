@@ -1,9 +1,13 @@
+html {
+    background-color: rgb(6, 5, 34);
+}
+
 #container {
     width: 100%;
 }
 
 #banner {
-    border: solid 5px black;
+    border: solid 5px rgb(137, 137, 158);
     text-align: center;
     margin: 6rem 10rem 4rem;
     height: 18rem;
@@ -13,6 +17,7 @@
     font-size: 4rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
+    color: rgb(230, 243, 255);
     /* text-shadow: 0 0 5 black; */
     /* -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: #ede1e1; */
@@ -20,7 +25,7 @@
 
 #name {
     margin-bottom: 3rem;
-    color: rgb(119, 124, 130);
+    color: rgb(118, 134, 152);
     font-family: 'Roboto';
     font-weight: 800;
     font-size: 1.5rem;
@@ -61,6 +66,10 @@ img {
     text-align: center;
     font-size: 2rem;
     margin: 3rem 10rem 4rem;
+    letter-spacing: 2px;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 
 #footer {
@@ -83,10 +92,11 @@ img {
 }
 
 #footer-name {
-    background-color: black;
+    background-color: rgb(6, 5, 34);
     font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
     padding: 1rem 1rem 0rem;
-    color: white;
+    color: rgb(233, 239, 255);
     font-size: 2rem;
     height: 21%;
     box-shadow: 0 0 1rem black;
@@ -95,13 +105,51 @@ img {
 
 #contact {
     margin: 1rem 0;
-    background-color: black;
+    background-color: rgb(6, 5, 34);
     height: 45%;
     font-size: 1rem;
-    color: rgb(211, 211, 211);
+    color: rgb(231, 240, 255);
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 2.5rem 1rem 0rem;
     line-height: 160%;
     box-shadow: 0 0 1rem black;
+}
 
+@media only screen and (max-width: 80rem) {
+    #banner {
+        height: 25rem;
+        padding: 0 3rem;
+    }
+
+    #footer {
+        margin-top: 3rem;
+        height: 30rem;
+    }
+}
+
+@media only screen and (max-width: 50rem) {
+    #banner {
+        margin: 6rem 4rem;
+    }
+
+    #photo-container {
+        margin: 0 4rem;
+    }
+
+    #footer {
+        margin: 5rem 4rem 4rem;
+        height: 20rem;
+    }
+}
+
+@media only screen and (max-width: 40rem) {
+    #welcome {
+        padding-top: 3rem;
+        font-size: 3rem;
+    }
+
+    #end-message {
+        font-size: 1.2rem;
+        margin: 3rem 0;
+    }
 }
