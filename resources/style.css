@@ -1,0 +1,107 @@
+#container {
+    width: 100%;
+}
+
+#banner {
+    border: solid 5px black;
+    text-align: center;
+    margin: 6rem 10rem 4rem;
+    height: 18rem;
+}
+
+#welcome {
+    font-size: 4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    /* text-shadow: 0 0 5 black; */
+    /* -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #ede1e1; */
+}
+
+#name {
+    margin-bottom: 3rem;
+    color: rgb(119, 124, 130);
+    font-family: 'Roboto';
+    font-weight: 800;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+}
+
+#photo-container {
+    margin: 0 10rem;
+    display: flex;
+    align-items: flex-start;
+}
+
+#left {
+    height: auto;
+    width: 50%;
+    margin-right: 0.7rem;
+    display: block;
+}
+
+#center {
+    width: 50%;
+}
+
+#right {
+    height: auto;
+    width: 50%;
+    margin-left: 0.7rem;
+    display: block;
+}
+
+
+img {
+    width: 100%;
+    margin-bottom: 0.6rem;
+}
+
+#end-message {
+    text-align: center;
+    font-size: 2rem;
+    margin: 3rem 10rem 4rem;
+}
+
+#footer {
+    margin: 5rem 10rem 4rem;
+    border: solid 5px black;
+    background-image: url(./images/photographer.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40.15rem;
+    display: flex;
+    align-items: flex-end;
+}
+
+#info {
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
+    width: 16rem;
+    height: 16rem;
+}
+
+#footer-name {
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 1rem 1rem 0rem;
+    color: white;
+    font-size: 2rem;
+    height: 21%;
+    box-shadow: 0 0 1rem black;
+
+}
+
+#contact {
+    margin: 1rem 0;
+    background-color: black;
+    height: 45%;
+    font-size: 1rem;
+    color: rgb(211, 211, 211);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 2.5rem 1rem 0rem;
+    line-height: 160%;
+    box-shadow: 0 0 1rem black;
+
+}
