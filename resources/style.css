@@ -41,7 +41,7 @@ html {
 #left {
     height: auto;
     width: 50%;
-    margin-right: 0.7rem;
+    margin-right: 1.2rem;
     display: block;
 }
 
@@ -52,14 +52,20 @@ html {
 #right {
     height: auto;
     width: 50%;
-    margin-left: 0.7rem;
+    margin-left: 1.2rem;
     display: block;
 }
 
 
 img {
     width: 100%;
-    margin-bottom: 0.6rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 1rem black;
+}
+
+img:hover {
+    box-shadow: 0 0 3rem #7a92c799;
+    transition: box-shadow 0.2s ease;
 }
 
 #end-message {
